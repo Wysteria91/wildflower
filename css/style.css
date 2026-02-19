@@ -59,20 +59,28 @@ main{
    
     min-height: 60vh;
 }
-.prevBtn, .prevBtn2{
+.prevBtn{
     position: absolute;
     top:50%;
     left: 50px;
 
 }
+.prevBtn2{
+    top:40%;
+    left: 50px;
+}
 .prevBtn img, .nextBtn img, .prevBtn2 img, .nextBtn2 img{
    max-height: 50px;
 }
-.nextBtn, .nextBtn2{
+.nextBtn{
     position: absolute;
     top:50%;
     right:50px;
 
+}
+.nextBtn2{
+    top:40%;
+    right:50px;
 }
 .hamburger {
   display: none;
@@ -304,7 +312,26 @@ h3{
         display: block;
         padding: 20px;
     }
+    .nextBtn{
+        position: absolute;
+        top:40%;
+       
+    }
+    .nextBtn2{
+        top:30%;
+      
+    }
+    .prevBtn2{
+        top:30%;
+        
+    }
+    .prevBtn{
+        position: absolute;
+        top:40%;
+        
+    }
 }
+
 @media (max-width:600px){
     .menu{
     display: flex;
@@ -312,16 +339,24 @@ h3{
     align-items: center;
   }
 
-.nextBtn, .nextBtn2{
+.nextBtn{
     position: absolute;
-    top:50%;
-    right:-20px;
+    top:40%;
+    right:-15%;
 
 }
-.prevBtn, .prevBtn2{
+.nextBtn2{
+    top:30%;
+    right:-15%;
+}
+.prevBtn2{
+    top:30%;
+    left:-15%;
+}
+.prevBtn{
     position: absolute;
-    top:50%;
-    left: -20px;
+    top:40%;
+    left: -15%;
 
 }
   .ctamenu{
