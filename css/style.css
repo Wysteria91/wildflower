@@ -67,7 +67,12 @@ main{
 }
 .prevBtn2{
     top:40%;
-    left: 50px;
+    left:50px;
+}
+.nextBtn2{
+    position: absolute;
+    top:40%;
+    right:50px;
 }
 .prevBtn img, .nextBtn img, .prevBtn2 img, .nextBtn2 img{
    max-height: 50px;
@@ -78,10 +83,7 @@ main{
     right:50px;
 
 }
-.nextBtn2{
-    top:40%;
-    right:50px;
-}
+
 .hamburger {
   display: none;
   font-size: 28px;
@@ -346,10 +348,12 @@ h3{
 
 }
 .nextBtn2{
+    position: absolute;
     top:30%;
     right:-15%;
 }
 .prevBtn2{
+    position: absolute;
     top:30%;
     left:-15%;
 }
