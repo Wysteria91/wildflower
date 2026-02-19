@@ -62,10 +62,11 @@ main{
 .prevBtn{
     position: absolute;
     top:50%;
-    left: 50px;
+    left:50 px;
 
 }
 .prevBtn2{
+    position: absolute;
     top:40%;
     left:50px;
 }
@@ -348,17 +349,15 @@ h3{
 
 }
 .nextBtn2{
-    position: absolute;
     top:30%;
     right:-15%;
 }
 .prevBtn2{
-    position: absolute;
     top:30%;
     left:-15%;
 }
 .prevBtn{
-    position: absolute;
+    
     top:40%;
     left: -15%;
 
