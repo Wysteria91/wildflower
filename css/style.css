@@ -301,7 +301,8 @@ h3{
         padding:1rem;
     }
     .menuBtn{
-        display: none;
+        display: block;
+        padding: 20px;
     }
 }
 @media (max-width:600px){
@@ -336,7 +337,10 @@ h3{
     min-height: 600px;
     justify-content: flex-start;
   }
-
+ .menuBtn{
+        display: block;
+        padding: 20px;
+    }
   .ctamenu.active{
     display: flex;
   }
